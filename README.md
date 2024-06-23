@@ -1,3 +1,9 @@
+tugas akhir pemograman web dasar NAMA:Muhammad Diaz R Rambe NPM:2209010031 NAMA:Amika Riskinda rahmadani NPM:2209010004 NAMA: MIFTAH Aristiya Badri NPM:2209010026 NAMA:Fikri Muhaimin Siagian NPM:2209010019 NAMA: Gema Akbar NPM 2209010023
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
