@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=League+Spartan:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap");
+
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Josh', cursive;
+}
+
+/* /* body
+{ */
+   /* display: flex; */
+   /* justify-content: center;
+   align-items: center;
+   min-height: 100vh; */
+   /* width: 100%;
+   background: #fff; */
+/* }  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4{
+    font-size: 20px;
+    color: #222;
+}
+
+h6{
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p{
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1{
+    padding: 40px 80px;
+}
+
+.section-m1{
+    margin: 40px 0;
+}
+
+body{
+    width: 100%;
+}
+
+/* Header */
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 80px;
+    background-color: #ffe546;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 0 20px;
+    padding-top: 10px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+
+.navbar li a:hover{
+    color: #fed202;
+}
+
+.container
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.container .card
+{
+   width: 330px;
+   height: 416px;
+   padding: 60px 30px;
+   margin: 20px;
+   background: #fef568;
+   box-shadow: 0.6em 0.6em 1.2em #efe753,
+               -0.5em -0.5em 1em #d6d067;
+   border-radius: 20px;
+}
+.container .card .content
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.container .card .content .imgBx
+{
+   width: 160px;
+   height: 180px;
+   border-radius: 50%;
+   position: relative;
+   margin-bottom: 20px;
+   overflow: hidden;
+}
+.container .card .content .imgBx img
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.container .card .content .contentBx h4
+{
+   color: #1a1a1a;
+   font-size: 1.7rem;
+   font-weight: bold;
+   text-align: center;
+   letter-spacing: 1px;
+}
+.container .card .content .contentBx h5
+{
+   color: #6c758f;
+   font-size: 1.2rem;
+   font-weight: bold;
+   text-align: center;
+}
+.container .card .content .sci
+{
+   margin-top: 20px;
+}
+.container .card .content .sci a
+{
+   text-decoration: none;
+   color: #6c758f;
+   font-size: 30px;
+   margin: 10px;
+   transition: color 0.4s;
+}
+.container .card .content .sci a:hover
+{
+   color: #0196e3;
+}
+
+/* footer */
+footer{
+    position: relative;
+    width: 100%;
+    background: #ffe546;
+    min-height: 100px;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+footer .social-icon, footer .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+footer .social-icon li, footer .menu li{
+    list-style: none;
+}
+
+footer .social-icon li a{
+    font-size: 2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+footer .social-icon li a:hover{
+    transform: translateY(-10px);
+}
+
+footer .menu li a{
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+footer .menu li a:hover{
+    opacity: 1;
+}
+
+footer p{
+    color: #fff;
+    margin-left: 45px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
